@@ -1,0 +1,144 @@
+# Profile section
+profile:
+  first_name: Santiago
+  last_name: Vales
+  # picture: https://rodolfoferro.xyz/assets/images/profile.jpg   # Hosted picture
+  picture: static/img/Santy.png  # Local picture
+  contact: 
+    address_one: Guanajuato, Guanajuato
+    address_two: Merida, Yucatán
+    phone: (999) ASK-4-IT! 
+  email: js.valesmena@ugto.mx
+  description: >
+    Lover of competive programing, highly interested in development, teaching teach and learning. Love to collaborate and always having fun
+
+
+# Social section
+social:
+  website: https://www.google.com/
+  github: https://github.com/5an7y
+  twitter: https://twitter.com/Santiago7Jose
+  linkedin: 
+  facebook: 
+
+
+# Experience section
+experience:
+  item0:
+    position: 
+    company: You Can Start writing here :)
+    from: 
+    to: 
+    description: >
+
+    link: 
+
+
+# Education section
+education:
+  item1:
+    institution: University of Guanajuato / CIMAT A.C.
+    program: Bachelor of Computacional mathemathics
+    description: Like Computer scientist major, with a mathematical focus.  
+    from: August 2019
+    to: Actual
+  item2:
+    institution: Instituto Mexicano de Matematicas
+    program: Data science, winter school 2019
+    Description: "Winter school about a themes like: Neuronal networks, IA, Data minering, etc."
+    from: January, 2018
+    to:  January, 2018 (1 week)
+
+# Community section:
+community:
+  item1:
+    institution: Asociacion Juvenil de Ciencia Yucatán
+    program: Founding member
+    description: "Founding member of AJC Yucatán, an altruistic organization and community for the dissemination and communication of science and technology. I always wanted to lead different free educational activities of science and technology that can help children and young people receive opportunities to learn something new, regardless of their economic and social situation. For more information about the activities of the AJC Yucatán, take a look at its website and social-nets!"
+    from: Febraury 2019
+    to: Present
+    link: https://www.facebook.com/ajcyucatan
+  item2:
+    institution: Future lab
+    program: Member
+    description: "Member at future lab, a community of tech developers for the future. We maily work under three axis: a) Develop awesome tech based projects, b) Share knowledge with the community, and c) Networking with other communities."
+    from: September 2019
+    to: Present
+    link: https://futurelab.mx/
+
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - C/C++
+  - Python
+  - HTML5
+  - Arduino
+  - Google-drive
+  - Latex
+  - Markdown
+
+extra_skills:
+  - Competitive programming problem solving
+  - Basic flask and data manipulation with python
+  - Public speeking
+
+# Certifications and awards section
+workshops:
+  item0:
+    event: DevDay Mérida 2019.
+    workshop: Competitive programming problem solving, July 2019.
+    material: 
+    link: 
+  item1:
+    event: Junior high "Jose montes de oca" complementary week 
+    workshop: Learning how to program with Karel, June 2019.
+    material: 
+    link: 
+  item2:
+    event: Junior high "Jose montes de oca" complementary week
+    workshop: Game theory games, June 2019.
+    material: 
+    link: 
+  item3:
+    event: Blass Pascal final school week 
+    workshop: How to learn anything, June 2019.
+    material: 
+    link: 
+  item4:
+    event: Informatics olimpic in Yucatan.
+    workshop: Coach (give traings of different themes like BFS, DFS, Heap, basic data structures), 2018.
+    material: https://github.com/RodolfoFerro/DevDayMid2019
+    link: 
+
+
+# Projects section
+projects:
+  item1:
+    title: Presper
+    subtitle: Electic consuption analisys
+    description: App for the people to see there electric consuption tendencies, prediction of posible mont to pay for the electric consuption, and ambiental harm of the electric consuption. (Close Beta)
+    link: 
+    github: 
+    img: Presper.jpg
+    tags: [Python, Data analisys, Electic consuption]
+  item2:
+    title: ArkDown
+    subtitle: Rysing sea level data analisys
+    description: Proyect started at NASA Space App Challenge, an application to analyse the rysing sea water level; trying to predict the alert elevations and advertise to the people leaving around.
+    link: 
+    github: 
+    img: arkdown.png
+    tags: [HTML, Python, Data analisys]
+
+
+
+# Certifications and awards section
+awards:
+  - Participation at Local Hack Day 2019
+  - Nasa Space App Chanllenge participan 2019
+  - 6th place at ICPC Regional, Mexico 2019
+  - Wiiner – Hacksurest 2019
+  - Gold medal - Mexico olimpiad in Informatics 2018
+  
