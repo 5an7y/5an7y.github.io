@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A simple resume template built with Flask, based on Start Bootstrap resume template.">
+  <meta name="author" content="Rodolfo Ferro <rodolfoferroperez@gmail.com>">
+
+  <title>Portfolio - Santiago Vales</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="static/css/resume.css" rel="stylesheet">
+  <link rel="shortcut icon" href="https://avatars3.githubusercontent.com/u/36435547" type="image/x-icon">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none text-white subheading"> Santiago Vales</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="static/img/Santy" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#community">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#workshops">Workshops</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Santiago
+          <span class="text-primary">Vales</span>
+        </h1>
+        <div class="subheading mb-5">
+          Guanajuato, Guanajuato · Merida, Yucatan · (999) ASK-4-IT! 
+          <a href="mailto:{{ data.profile.email }}">js.valesmena@ugto.mx</a>
+        </div>
+        <p class="lead mb-5">Lover of competive programing, highly interested in development, teaching teach and learning. Love to collaborate and always having fun</p>
+        <div class="social-icons">
+          <a href="5an7y.github.io" target="_blank">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+          <a href="https://github.com/5an7y" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/Santiago7Jose" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fa-li fa fa-check"></i>
+            C/C++</li>
+          </li>
+          <li class="list-inline-item">
+            <i class="fa-li fa fa-check"></i>
+            Python</li>
+          </li>
+          <li class="list-inline-item">
+            <i class="fa-li fa fa-check"></i>
+            HTML5</li>
+          </li>
+          <li class="list-inline-item">
+            <i class="fa-li fa fa-check"></i>
+            Arduino</li>
+          </li>
+          <li class="list-inline-item">
+            <i class="fa-li fa fa-check"></i>
+            Google-drive</li>
+          </li>
+          <li class="list-inline-item">
+            <i class="fa-li fa fa-check"></i>
+            Latex</li>
+          </li>
+          <li class="list-inline-item">
+            <i class="fa-li fa fa-check"></i>
+            Markdown</li>
+          </li>
+        </ul>
+        
+        <div class="subheading mb-3">Extra skills / knowledge</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Competitive programming problem solving</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Basic flask and data manipulation with python</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Public speeking</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Guanajuato / CIMAT A.C.</h3>
+            <div class="subheading mb-3">Bachelor of Computacional mathemathics</div>
+            <div>Like a computer science major, with a mathematical focus.</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2019 - Today</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Instituto Mexicano de Matematicas aplicadas y sistemas</h3>
+            <div class="subheading mb-3">Data science, winter school 2019</div>
+            <div>Winter school about a themes like: Neuronal networks, IA, Data minering, etc.</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2018 - January 2018 (1 week)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="community">
+      <div class="w-100">
+        <h2 class="mb-5">Community and social activity</h2>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Asociacion Juvenil de Ciencia Yucatan</h3>
+            <div class="subheading mb-3">Founding member</div>
+            <div>Founding member of AJC Yucatan, an altruistic organization and community for the dissemination and communication of science and technology. I always wanted to lead different free educational activities of science and technology that can help children and young people receive opportunities to learn something new, regardless of their economic and social situation. For more information about the activities of the AJC Yucatán, take a look at its website and social-nets!</div>
+            <a href="https://www.facebook.com/ajcyucatan">Know more</a>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Febraury 2019 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Future lab</h3>
+            <div class="subheading mb-3">Member</div>
+            <div>Member at future lab, a community of tech developers for the future. We maily work under three axis: a) Develop awesome tech based projects, b) Share knowledge with the community, and c) Networking with other communities.</div>
+            <a href="https://futurelab.mx/">Know more</a>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2019 - Present</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="workshops">
+      <div class="w-100">
+        <h2 class="mb-5">Talks &amp; Workshops</h2>
+        <p>Some of my most recent talks and workshops are...</p>
+        <ul class="fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fa fa-shapes text-info"></i>
+            <strong>DevDay Mérida 2019</strong>
+            <br> Competitive programming problem solving, July 2019 
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-shapes text-info"></i>
+            <strong>Junior high "Jose montes de oca" complementary week</strong>
+            <br> Learning how to program with Karel, June 2019
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-shapes text-info"></i>
+            <strong>Junior high "Jose montes de oca" complementary week</strong>
+            <br>Game theory games, June 2019
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-shapes text-info"></i>
+            <strong>Blass Pascal final school week</strong>
+            <br> How to learn anything, June 2019
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-shapes text-info"></i>
+            <strong>Informatics olimpic in Yucatan</strong>
+            <br> Coach (give traings of different themes like BFS, DFS, Heap, basic data structures), 2018
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+        <p>This section contains awesome projects that I've developed:</p>
+        <!-- Begins card -->
+        <div class="row">
+          
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <img src="static/img/Presper.png" class="card-img-top" alt="Presper">
+              <div class="card-body">
+                <h3 class="card-title">Presper</h3>
+                <h5 class="card-title">Electic consuption analisys</h5>
+                <p class="card-text">App for the people to see there electric consuption tendencies, prediction of posible mont to pay for the electric consuption, and ambiental harm of the electric consuption</p>
+                <p>
+                  <span class="badge badge-pill badge-secondary">Python</span>
+                  <span class="badge badge-pill badge-secondary">Data analisys</span>
+                  <span class="badge badge-pill badge-secondary">Electic consuption</span>
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-dark float-right" target="_blank">Closed Beta</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <img src="static/img/arkdown.png" class="card-img-top" alt="ArkDown">
+              <div class="card-body">
+                <h3 class="card-title">Arkdown</h3>
+                <h5 class="card-title">Rysing sea level data analisys</h5>
+                <p class="card-text">Proyect started at NASA Space App Challenge, an application to analyse the rysing sea water level; trying to predict the alert elevations and advertise to the people leaving around</p>
+                <p>
+                  <span class="badge badge-pill badge-secondary">HTML</span>
+                  <span class="badge badge-pill badge-secondary">Python</span>
+                  <span class="badge badge-pill badge-secondary">Data Analisys</span>
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-dark float-right" target="_blank">Closed Beta</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Participation at Local Hack Day 2019
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Nasa Space App Chanllenge participant 2019</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Winner – Hacksurest 2019</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Winner – Hacksurest 2019</li>
+
+        </ul>
+      </div>
+    </section>
+    
+    <div class="container">
+    <p class="small float-right">This Flask template was built with <i class="fas fa-heart text-danger"></i> by <a href="https://rodolfoferro.xyz" target="_blank">Rodolfo Ferro</a>, under a MIT License.</p>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="static/js/resume.min.js"></script>
+
+</body>
+
+</html>
